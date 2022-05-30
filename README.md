@@ -19,3 +19,18 @@ npm install -g (nombre del paquete) paquete en forma global se debe de instalar 
 npm list -g --depth 0 (buscar paquetes instalados)
 
 npm install (nombre del paquete) -O -> paquetes opcionales
+
+# INSTALACION DE DEPENDENCIA CON FORCE
+npm install (paquete) -f
+npm install json-server@0.15.0 -> instala versión específica
+
+# ACTUALIZAR Y ELIMINAR PAQUETES
+npm list -> lista de paquetes instalados
+npm outdate -> paquetes desactualizados
+npm outdate --dd -> ver el output
+npm update ->actualiza
+npm install json-server@latest ->ultima versión del ultimo paquete
+npm unistall (paquete) -> elimina paquete
+npm uninstall (paquete) --no-save -> no se elimina de package
+
+instalar extensión npm en vscode
