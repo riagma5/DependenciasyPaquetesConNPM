@@ -34,3 +34,31 @@ npm unistall (paquete) -> elimina paquete
 npm uninstall (paquete) --no-save -> no se elimina de package
 
 instalar extensión npm en vscode
+
+# SCRIPTS
+comando creados por nosotros para usar en npm
+
+# SOLUCIÓN DE PROBLEMAS
+
+eliminación de cache
+npm cache clean --force
+
+verificación de caché
+npm cache verify
+
+eliminación de carpeta en mac
+rm -rf node_modules
+
+Eliminación de carpeta en windows
+sudo npm install -g rimraf
+rimraf node_modules
+
+# SEGURIDAD
+
+npm audit
+npm audit --json
+npm update (nombre del paquete) --depth 2
+npm audit fix -> arregla todos los detalles
+
+# PAQUETES GLOBALES
+sudo npm link
