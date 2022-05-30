@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/riagma5/DependenciasyPaquetesConNPM#readme",
   "dependencies": {
-    "moment": "^2.29.3"
+    "moment": "^2.29.3",
+    "webpack": "^5.72.1"
   },
   "devDependencies": {
     "date-fns": "^2.28.0"
